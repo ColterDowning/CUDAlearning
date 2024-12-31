@@ -25,4 +25,4 @@ CUDA_FLAGS = -arch=sm_86
 	@$(NVCC) $(CUDA_FLAGS) -o 03_cu 03.cu
 
 clean: 
-	rm -f 01 02 03_cu *.o
+	@rm -f 01 02 03_cu *.o
