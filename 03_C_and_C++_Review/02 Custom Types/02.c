@@ -11,3 +11,5 @@ int main() {
     printf("size of Point: %zu\n", sizeof(Point));  // Output: 8 bytes = 4 bytes (float x) + 4 bytes (float y)
 
 }
+
+// We can define our own types! Use the typedef struct command to do that.

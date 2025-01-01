@@ -9,3 +9,6 @@ int main() {
     char c = (char)i;
     printf("%c\n", c);  // Output: E (ASCII value of 69 -> https://www.asciitable.com/)
 }
+
+// Casting in C allows you to convert a variable to a different type. f is initially a float, but we can cast the information to i as an integer.
+// Nothing happens to f when we cast, we are just making a new variable i of a different type but with the same information

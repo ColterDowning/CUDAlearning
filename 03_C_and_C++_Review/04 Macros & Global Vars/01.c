@@ -8,8 +8,8 @@
 // #else
 // #endif
 
-#define PI 3.14159
-#define AREA(r) (PI * r * r)
+#define PI 3.14159 //Defining a new variable called PI and setting it equal to 3.14159. I know, there is no '=' sign..... =(
+#define AREA(r) (PI * r * r) // define can also be used as a lambda function =)
 
 #ifndef radius
 #define radius 7

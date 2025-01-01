@@ -26,3 +26,6 @@ int main() {
     // arrays are layed out in memory in a contiguous manner (one after the other rather than at random locations in the memory grid)
 
 }
+
+// An integer pointer can point to an array of integers. It points to the first memory location in the array (the address for 12 in this example).
+// Incrementing by using 'ptr++' will move the pointer one step down the array

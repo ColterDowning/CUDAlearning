@@ -16,3 +16,5 @@ int main() {
         printf("\n");
     }
 }
+
+// You can also have an array of pointers, where each term in the array is a pointer

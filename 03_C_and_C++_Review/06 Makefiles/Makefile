@@ -4,8 +4,9 @@ GCC = gcc
 NVCC = nvcc
 CUDA_FLAGS = -arch=sm_86
 
-01:
-	@$(GCC) -o 01 01.c
+01: #When you type 01 in the terminal....
+	@$(GCC) -o 01 01.c 
+#it performs this command ^ The @ means it doesn't show in the terminal
 
 
 # just compiles to object file
@@ -26,3 +27,6 @@ CUDA_FLAGS = -arch=sm_86
 
 clean: 
 	@rm -f 01 02 03_cu *.o
+
+# Make files are a way to automate long terminal command lines with smaller phrases =)
+# It's basically starcraft macros. Defining a command in a makefile like '@rm -f 01 02 03_cu *.o' will run when you just type in 'clean'

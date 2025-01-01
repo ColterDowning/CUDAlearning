@@ -44,3 +44,8 @@ int main() {
 
     return 0;
 }
+
+// NULL pointers introduce a best practice and some grace for C programming. A NULL pointer (initialized by writing int* ptr = NULL or void* ptr = NULL)
+// will point to a memory location, but we are explicitly writing the value at that memory location to be NULL. If we didn't, the value would be whatever
+// was last at that memory location, which would bring lots of undefined problems. Then, when we use the pointer later in our code, we can first check if it
+// is NULL. If it is, we can handle it properly before using it. They can also be useful when we need to return a NULL value in the event of a failure. 
