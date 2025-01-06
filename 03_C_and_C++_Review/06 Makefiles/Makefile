@@ -1,4 +1,5 @@
 .PHONY: 01 01_obj 01_obj_exe_run 02 03 clean
+# PHONY makes sure that commands are files that have the same names don't confuse the terminal.
 
 GCC = gcc
 NVCC = nvcc
